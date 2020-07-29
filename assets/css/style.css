@@ -1,0 +1,22 @@
+.about-img{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.about-container{
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    padding: 15px;
+}
+
+@media screen and (max-width: 768px) { 
+    body {
+        max-width: 100%;
+        max-height: auto;
+        overflow: auto;
+}
+}
