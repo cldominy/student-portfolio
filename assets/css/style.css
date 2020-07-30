@@ -28,6 +28,17 @@
     width: 100vw;
 }
 
+.introduction{
+    margin-top: 100px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    padding: 25px;
+    background-color: #E8E7E3;
+    float: left;
+    position: fixed;
+}
+
 @media screen and (max-width: 768px) { 
     body {
         max-width: 100%;
