@@ -1,15 +1,20 @@
+body{
+    background-color: #E8E7E3;
+}
+
 .about-img{
     margin-left: 100px;
     margin-top: 50px;
+    border: 5px solid white;
 }
 
 .about-container{
     margin-right: 200px;
     margin-top: 50px;
     margin-left: 100px;
-    border: 3px;
-    border-color: black;
-    border-style: solid;
+    border: 1px solid #797877;
+    border-radius: 25px;
+    color: #313130;
     padding: 15px;
 }
 
@@ -30,13 +35,13 @@
 
 .introduction{
     margin-top: 100px;
-    border: 3px;
-    border-color: black;
-    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #797877;
+    border-radius: 25px;
     padding: 25px;
     background-color: #E8E7E3;
-    float: left;
-    position: fixed;
+    color: #313130;
 }
 
 @media screen and (max-width: 768px) { 
