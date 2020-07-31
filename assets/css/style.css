@@ -8,6 +8,14 @@ body{
     margin-bottom: 60px;
 }
 
+.heading, h1, h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link, p, h3{
+    font-family: 'Raleway', sans-serif;
+}
+
 .about-img{
     margin-left: 100px;
     margin-top: 50px;
