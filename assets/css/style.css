@@ -18,6 +18,11 @@ body{
     padding: 15px;
 }
 
+.skills{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
 .contact{
     margin-top: 50px;
     color: #313130;
@@ -55,4 +60,8 @@ body{
         max-height: auto;
         overflow: auto;
 }
+    .about-container{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
