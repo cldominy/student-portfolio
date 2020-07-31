@@ -18,6 +18,11 @@ body{
     padding: 15px;
 }
 
+.contact{
+    margin-top: 50px;
+    color: #313130;
+}
+
 #background-static{
     background: #fff;
     z-index: -1;
