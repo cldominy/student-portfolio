@@ -8,42 +8,19 @@ body{
     margin-bottom: 60px;
 }
 
+/* Nav Bar Styling */
 .heading, h1, h2{
     font-family: 'Montserrat', sans-serif;
 }
-
 .nav-link, p, h3{
     font-family: 'Raleway', sans-serif;
 }
-
-.about-img{
-    margin-left: 100px;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    border: 5px solid white;
+.active>.nav-link{
+    color: #7AA44D!important;
+    font-weight: 550;
 }
 
-.about-container{
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-bottom: 25px;
-    border: 1px solid #797877;
-    border-radius: 25px;
-    color: #313130;
-    padding: 15px;
-}
-
-.skills{
-    list-style-type: circle;
-    list-style-position: inside;
-}
-
-.contact{
-    margin-top: 50px;
-    color: #313130;
-}
-
+/* Index Page Styling */
 #background-static{
     background: #fff;
     z-index: -1;
@@ -53,12 +30,10 @@ body{
     height: 100vh;
     width: 100vw;
 }
-
 .header-img{
     height: 100vh;
     width: 100vw;
 }
-
 .introduction{
     margin-top: 100px;
     margin-left: 15px;
@@ -71,11 +46,41 @@ body{
     color: #313130;
 }
 
+/* About Page Styling */
+.about-img{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border: 5px solid white;
+}
+.about-container{
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    border: 1px solid #797877;
+    border-radius: 25px;
+    color: #313130;
+    padding: 15px;
+}
+.skills{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+/* Contact Styling */
+.contact{
+    margin-top: 50px;
+    color: #313130;
+}
+
+/* Portfolio Styling */
 .card-folio{
     margin-bottom: 25px;
 }
 
-  .footer {
+/* Footer Styling */
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -88,11 +93,7 @@ body{
       text-align: center;
   }
 
-  .active>.nav-link{
-      color: #7AA44D!important;
-      font-weight: 550;
-  }
-
+/* Custom Responsive Styling */
 @media screen and (max-width: 768px) { 
     body {
         max-width: 100%;
