@@ -1,2 +1,2 @@
 # student-portfolio
-Portfolio for student projects
+Portfolio for future student projects
