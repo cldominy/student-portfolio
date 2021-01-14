@@ -1,0 +1,11 @@
+/* Nav Bar Styling */
+.heading, h1, h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link, p, h3{
+    font-family: 'Raleway', sans-serif;
+}
+.active>.nav-link{
+    color: #7AA44D!important;
+    font-weight: 550;
+}

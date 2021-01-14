@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Book Club",
+        "preview": "/images/book.png",
+        "summary": "A simple webiste where user's can leave 128 character reviews for their favorite books! It utilizes passport, express.js, and Google Books API to allow users to search for books, write reviews, and browse other user's reviews. It is a work in progress",
+        "links": {
+            "deployed": "https://floating-journey-05593.herokuapp.com/",
+            "github": "https://github.com/cldominy/book-club"
+        }
+
+    },
+    {
+        "id": 2,
+        "name": "Burger App!",
+        "preview": "/images/burger.png",
+        "summary": "Just a fun website where users can store burgers they wish to eat in SQL database. It uses a custom ORM and dynamically updates the page as users add/devour burgers.",
+        "links": {
+            "deployed": "https://eat-da-burger-dominy.herokuapp.com/",
+            "github": "https://github.com/cldominy/burger-app"
+        }
+
+    },
+    {
+        "id": 3,
+        "name": "Note Taker",
+        "preview": "/images/notes.PNG",
+        "summary": "A simple note taker that uses Express.js so that users can create notes, review them, and delete them by using routing",
+        "links": {
+            "deployed": "https://secure-scrubland-29490.herokuapp.com/",
+            "github": "https://github.com/cldominy/note-taker"
+        }
+
+    },
+    {
+        "id": 4,
+        "name": "Hike the Trails ATX",
+        "preview": "/images/trail.PNG",
+        "summary": "A website ultilizing Google Maps API, the Hiking Project API, and much more to create dynamically generated website to show user local Austin trails based on their search criteria!",
+        "links": {
+            "deployed": "https://cldominy.github.io/project-1/",
+            "github": "https://github.com/cldominy/project-1"
+        }
+
+    },
+    {
+        "id": 5,
+        "name": "Weather Dashboard",
+        "preview": "/images/weather.PNG",
+        "summary": "A weather dashboard that ultilizes Open Weather API to generate teh weather predictions based on user input",
+        "links": {
+            "deployed": "https://cldominy.github.io/weather-dashboard/",
+            "github": "https://github.com/cldominy/weather-dashboard"
+        }
+
+    },
+    {
+        "id": 6,
+        "name": "Work Day Planner",
+        "preview": "/images/planner.PNG",
+        "summary": "A work day planner that saves to a user's local storage and dynamically updates the page by using JQuery",
+        "links": {
+            "deployed": "https://cldominy.github.io/day-planner/",
+            "github": "https://github.com/cldominy/day-planner"
+        }
+
+    },
+    {
+        "id": 7,
+        "name": "Javascript Quiz",
+        "preview": "/images/quiz.PNG",
+        "summary": "A basic quiz to test a user's knowledge over Javascript. Used JS to save a user's score locally so they challenege themselves!",
+        "links": {
+            "deployed": "https://cldominy.github.io/javascript-quiz/",
+            "github": "https://github.com/cldominy/javascript-quiz"
+        }
+
+    },
+    {
+        "id": 8,
+        "name": "Password Generator",
+        "preview": "/images/password.png",
+        "summary": "A very basic password generator that use's user input to dynamically generate a unique password",
+        "links": {
+            "deployed": "https://cldominy.github.io/password-generator/",
+            "github": "https://github.com/cldominy/password-generator"
+        }
+
+    }
+]
