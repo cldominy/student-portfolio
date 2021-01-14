@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -12,7 +12,7 @@ function App (){
     return(
         <>
         <Nav/>
-        <Router basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
 
 <Route exact path="/" component={ Home } />
@@ -28,7 +28,7 @@ function App (){
 <Redirect to="/404" />;
 
 </Switch>
-        </Router>
+        </BrowserRouter>
         <Footer/>
         </>
     )
