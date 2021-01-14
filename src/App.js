@@ -6,7 +6,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
 
 function App (){
 
@@ -21,7 +20,6 @@ function App (){
 <Route exact path="/portfolio" component= { Portfolio } />
 <Route exact path="/contact" component={ Contact } />
 <Route exact path="/about" component={ About } />
-<Route exact path="/resume" component={ Resume } />
 <Route path="/404" render={
   () => (
     <h2>404: NOT A VALID URL PATH!</h2>

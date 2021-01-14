@@ -17,7 +17,7 @@ function Nav(){
               <a className="nav-link" href="/portfolio">Portfolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="www.google.com" target="_blank">Resume</a>
+              <a className="nav-link" href="https://drive.google.com/file/d/1N7lFh2GzO4vV-VUjO_cpI4xjujGciHcY/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/contact">Contact</a>
