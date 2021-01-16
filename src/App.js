@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
+import Nav from "./components/Nav";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -11,8 +11,9 @@ function App (){
 
     return(
         <>
+
+        <HashRouter basename={process.env.PUBLIC_URL}>
         <Nav/>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
 
 <Route exact path="/" component={ Home } />
@@ -28,7 +29,7 @@ function App (){
 <Redirect to="/404" />;
 
 </Switch>
-        </BrowserRouter>
+        </HashRouter>
         <Footer/>
         </>
     )
