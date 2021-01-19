@@ -9,3 +9,25 @@
     color: #7AA44D!important;
     font-weight: 550;
 }
+
+/* About Container Styling */
+.about-img{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border: 5px solid white;
+}
+.about-container{
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    border: 2px solid #7aa44d;
+    border-radius: 25px;
+    color: #313130;
+    padding: 15px;
+}
+.skills{
+    list-style-type: circle;
+    list-style-position: inside;
+}
