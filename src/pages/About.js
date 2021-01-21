@@ -13,19 +13,15 @@ function About(){
           <Col size="col-lg-8">
               <div className="about-container">
                   <H2>About Me</H2>
-                  <p>I am a current student in UT Austin's fullstack bootcamp.
-                    Originally, I graduated from the University of Texas at Austin in August 2018 with a BSA in Biology, 
-                    minor in Psychology, and a certifcation to teach 7-12 composite science.
-                    My goals have always been centered around learning as much as I can and applying what I know, 
-                    either through creating projects or passing down my knowledge through teaching. I aspire to go
-                    above and beyond by expanding my skillset. Eventually, I hope to transition from a science teacher 
-                    to a software engineer.
+                  <p>I am a full-stacks web developer with a background in Biology, STEM education, and psychology.
+                    Originally, I graduated from the University of Texas at Austin and received my certifcation for Full-Stacks web development following graduation. 
+                    While developing my skills as a programmer, I learned that I have a true passion of making full-stack applications, enjoying the management of back-end to the visuals of front-end. Quick to learn, I enjoy picking up new skills and languages whenever I can, applying what I know to create personal projects that benefit me and those in my community. My future goal is to continue my education by receiving a masters in computer science or software engineering in the hopes of creating new applications daily to improve lives everwhere. 
                   </p>
                   <H2>Current Skill Set</H2>
                   <UL>
                       <LI className="skills">HTML5</LI>
                       <LI className="skills">CSS3</LI>
-                      <LI className="skills">Boostrap 4</LI>
+                      <LI className="skills">Boostrap 4 & Other CSS Frameworks</LI>
                       <LI className="skills">JavaScript</LI>
                       <LI className="skills">MySQL</LI>
                       <LI className="skills">Node.js</LI>
@@ -34,6 +30,7 @@ function About(){
                       <LI className="skills">MongoDB</LI>
                       <LI className="skills">React</LI>
                       <LI className="skills">GIT/Github</LI>
+                      <LI className="skills">REST API's</LI>
                   </UL>
               </div>
            </Col>
