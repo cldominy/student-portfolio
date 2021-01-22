@@ -13,7 +13,7 @@
     {
         "id": 2,
         "name": "Burger App!",
-        "preview": "/images/burger.png",
+        "preview": "/images/burger.PNG",
         "summary": "Just a fun website where users can store burgers they wish to eat in SQL database. It uses a custom ORM and dynamically updates the page as users add/devour burgers.",
         "links": {
             "deployed": "https://eat-da-burger-dominy.herokuapp.com/",
