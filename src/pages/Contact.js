@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Col, Row } from "../components/Grid";
-import {H1, H2} from "../components/Headers"
+import {H1} from "../components/Headers"
 import Form from "../components/Form"
 
 
