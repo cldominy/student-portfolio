@@ -20,9 +20,6 @@ function Nav(){
             <li className="nav-item">
               <a className="nav-link" href="https://drive.google.com/file/d/18S4c9Yu49lFiRArQwpeFnn765b5O-FvI/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
-            </li>
             <li class="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Find Me
@@ -32,6 +29,9 @@ function Nav(){
           <a className="dropdown-item" href="https://github.com/cldominy">GitHub</a>
         </div>
       </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
       </nav>
