@@ -1,6 +1,17 @@
 [
     {
         "id": 1,
+        "name": "Formulator",
+        "preview": "/images/formulator.PNG",
+        "summary": "A React website that allows users to input information and generate pre-created legal documents to download or save",
+        "links": {
+            "deployed": "https://legal-formulator.herokuapp.com/",
+            "github": "https://github.com/cldominy/formulator"
+        }
+
+    },
+    {
+        "id": 2,
         "name": "Book Club",
         "preview": "/images/book.png",
         "summary": "A simple webiste where user's can leave 128 character reviews for their favorite books! It utilizes passport, express.js, and Google Books API to allow users to search for books, write reviews, and browse other user's reviews. It is a work in progress",
